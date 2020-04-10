@@ -1,5 +1,3 @@
-# This file wont do us much good in this location, make sure you change the path as directed to continue!
-
 name: Node CI
 
 on:
@@ -9,6 +7,7 @@ on:
     #   - "docker-workflow"
     paths:
       - "**Dockerfile**"
+
 jobs:
   build:
     runs-on: ubuntu-latest
